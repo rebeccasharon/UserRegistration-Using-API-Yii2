@@ -61,7 +61,7 @@ CREATE TABLE `user_payment_details` (
   `customerId` int(11) DEFAULT NULL,
   `owner` varchar(30) NOT NULL,
   `iban` text NOT NULL,
-  `Response` varchar(20) DEFAULT NULL,
+  `Response` text DEFAULT NULL,
   `Status` bit(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
